@@ -1,0 +1,58 @@
+<snippet>
+    <content><![CDATA[
+{
+    "_id": "$1",
+    "_parentId":"$2",
+    "_classes": "",
+    "_layout": "$3",
+    "_type": "component",
+    "_component": "matching",
+    "_attempts": 1,
+    "_isRandom":true,
+    "_questionWeight":0,
+    "title": "$4",
+    "displayTitle": "$5",
+    "body": "$5",
+    "instruction":"<em>$6</em>",
+    "_buttons":{
+        "submit":"",
+        "reset":"",
+        "showCorrectAnswer":"",
+        "hideCorrectAnswer":""
+    },
+    "_feedback": {
+        "correct": "$7",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "$8"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "$9"
+        }
+    },
+    "placeholder": "select an option",
+    "_items": [
+        {
+            "text": "",
+            "_options": [
+                {
+                    "text": "",
+                    "_isCorrect": false
+                },
+                {
+                    "text": "",
+                    "_isCorrect": false
+                }
+            ]
+        }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+}$10
+]]></content>
+    <tabTrigger>adapt-matching</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

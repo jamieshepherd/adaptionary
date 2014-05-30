@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[
+{
+    "_id":"$1",
+    "_parentId":"$2",
+    "_type":"component",
+    "_component":"mcq",
+    "_classes":"",
+    "_layout":"left",
+    "_attempts":1,
+    "_questionWeight":0,
+    "_isRandom":true,
+    "_selectable":1,
+    "title": "$3",
+    "displayTitle": "$4",
+    "body": "$5",
+    "instruction": "<em>$6</em>",
+    "_items": [
+        {
+            "text": "",
+            "_shouldBeSelected":false
+        }
+    ],
+    "_feedback":{
+        "correct":"$6",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "$7"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "$8"
+      }
+    },
+    "_buttons":{
+        "submit":"",
+        "reset":"",
+        "showCorrectAnswer":"",
+        "hideCorrectAnswer":""
+    },
+  "_pageLevelProgress": {
+      "_isEnabled": true
+  }
+}$9
+]]></content>
+    <tabTrigger>adapt-mcq</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

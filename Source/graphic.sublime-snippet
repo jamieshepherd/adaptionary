@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+{
+    "_id":"$1",
+    "_parentId":"$2",
+    "_type":"component",
+    "_component":"graphic",
+    "_classes":"",
+    "_layout":"$3",
+    "title":"$4",
+    "displayTitle":"$5",
+    "body":"$6",
+    "instruction":"$7",
+    "_graphic": {
+        "alt": "$8",
+        "title": "$9",
+        "large": "http://placehold.it/477x495",
+        "medium": "http://placehold.it/480x400",
+        "small": "http://placehold.it/480x520"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": false
+    }
+}$10
+]]></content>
+    <tabTrigger>adapt-graphic</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

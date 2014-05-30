@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+{
+    "_id":"$1",
+    "_parentId":"$2",
+    "_type":"component",
+    "_component":"media",
+    "_classes":"",
+    "_layout":"left",
+    "title":"$3",
+    "displayTitle": "$4",
+    "body": "$5",
+    "instruction": "<em>$6</em>",
+    "_setCompletionOn":"ended",
+    "_media": {
+        "mp4": "$7",
+        "ogv": "$8",
+        "poster": "$9"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+}$10
+]]></content>
+    <tabTrigger>adapt-media</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

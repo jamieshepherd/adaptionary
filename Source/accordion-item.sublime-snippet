@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+{
+  "alt": "$1",
+  "title": "$2",
+  "body": "$3"
+}$4
+]]></content>
+    <tabTrigger>adapt-accordion-item</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

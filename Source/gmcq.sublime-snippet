@@ -1,0 +1,49 @@
+<snippet>
+    <content><![CDATA[
+{
+    "_id":"$1",
+    "_parentId":"$2",
+    "_type":"component",
+    "_component":"mcq",
+    "_classes":"",
+    "_layout":"$3",
+    "_attempts":$4,
+    "_questionWeight":$5,
+    "_isRandom":true,
+    "_selectable":$6,
+    "title": "$7",
+    "displayTitle": "$8",
+    "body": "$9",
+    "instruction": "<em>$10</em>",
+    "_items": [
+        {
+            "text": "",
+            "_shouldBeSelected":false
+        }
+    ],
+    "_feedback":{
+        "correct":"$11",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "$12"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "$13"
+      }
+    },
+    "_buttons":{
+        "submit":"",
+        "reset":"",
+        "showCorrectAnswer":"",
+        "hideCorrectAnswer":""
+    },
+  "_pageLevelProgress": {
+      "_isEnabled": true
+  }
+}$14
+]]></content>
+    <tabTrigger>adapt-gmcq</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>
