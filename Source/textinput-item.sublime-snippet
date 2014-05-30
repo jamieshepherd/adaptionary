@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+{
+    "prefix": "$1",
+    "suffix": "$2",
+    "_answers": [
+        "$3",
+        "$4"
+    ]
+}$5
+]]></content>
+    <tabTrigger>adapt-textinput-item</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

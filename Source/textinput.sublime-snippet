@@ -1,0 +1,51 @@
+<snippet>
+    <content><![CDATA[
+{
+    "_id":"$1",
+    "_parentId":"$2",
+    "_type":"component",
+    "_component":"textinput",
+    "_classes":"",
+    "_layout":"$3",
+    "title": "$4",
+    "displayTitle": "$5",
+    "body": "$6",
+    "instruction": "<em>$7</em>",
+    "_attempts": $8,
+    "_questionWeight":$9,
+    "placeholder": "$10",
+    "_allowsAnyCase": true,
+    "_allowsPunctuation": true,
+    "_buttons":{
+        "submit":"",
+        "reset":"",
+        "showCorrectAnswer":"",
+        "hideCorrectAnswer":""
+    },
+    "_feedback": {
+        "correct": "$11",
+        "_incorrect": {
+            "notFinal": "",
+            "final": "$12"
+        },
+        "_partlyCorrect": {
+            "notFinal": "",
+            "final": "$13"
+        }
+    },
+    "_items": [
+        {
+            "prefix": "",
+            "suffix": "",
+            "_answers": [
+                "one",
+                "1"
+            ]
+        }
+    ]
+}$14
+]]></content>
+    <tabTrigger>adapt-textinput</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

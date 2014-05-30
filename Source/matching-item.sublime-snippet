@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+{
+    "text": "$1",
+    "_options": [
+        {
+            "text": "",
+            "_isCorrect": false
+        },
+        {
+            "text": "",
+            "_isCorrect": false
+        }
+    ]
+}$2
+]]></content>
+    <tabTrigger>adapt-matching-item</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

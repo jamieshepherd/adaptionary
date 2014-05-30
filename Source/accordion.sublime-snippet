@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+{
+  "_id":"$1",
+  "_parentId":"$2",
+  "_type":"component",
+  "_component":"accordion",
+  "_classes":"",
+  "_layout":"$3",
+  "title": "$4",
+  "displayTitle": "$5",
+  "body": "$6",
+  "instruction": "<em>$7</em>",
+  "_items": [
+    {
+      "alt": "",
+      "title": "",
+      "body": "<p></p>"
+    }
+  ],
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}
+]]></content>
+    <tabTrigger>adapt-accordion</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+{
+      "_id": "$1",
+      "_parentId":"$2",
+      "_classes": "",
+      "_type":"component",
+      "_component": "hotgraphic",
+      "_layout": "full",
+      "title": "$3",
+      "displayTitle": "$4",
+      "body": "$5",
+      "mobileBody": "$6",
+      "instruction":"<em>$7</em>",
+      "_graphic": {
+        "src": "http://placehold.it/984x577",
+        "alt": "$8",
+        "title": "$9"
+      },
+      "_items": [
+        {
+            "title": "",
+            "body": "",
+            "_graphic": {
+                "src": "http://placehold.it/480x320",
+                "alt": "",
+                "title": ""
+            },
+            "strapline": "",
+            "_top": 1,
+            "_left": 1
+        }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+}$10
+]]></content>
+    <tabTrigger>adapt-hotgraphic</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>

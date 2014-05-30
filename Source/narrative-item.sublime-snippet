@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+{
+    "title": "$1",
+    "body": "$2",
+    "_graphic": {
+        "src": "http://placehold.it/590x400",
+        "alt": "$3",
+        "title": "$4"
+    },
+    "strapline": "$5"
+}$6
+]]></content>
+    <tabTrigger>adapt-narrative-item</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>
