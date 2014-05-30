@@ -32,11 +32,11 @@ The following are the current available commands for adapt-sublime:
 
 Simple dropdown snippets
 
-![alt text](https://github.com/jamieshepherd/adapt-sublime/raw/dev/Images/adapt-sublime-2.png  "Easy component generation, TAB through entities")
+![alt text](https://github.com/jamieshepherd/adapt-sublime/raw/dev/Images/adapt-sublime-2.jpg  "Easy component generation, TAB through entities")
 
 Easy component generation, TAB through entities
 
-![alt text](https://github.com/jamieshepherd/adapt-sublime/raw/dev/Images/adapt-sublime-3.png  "Sublime search guesses snippet titles")
+![alt text](https://github.com/jamieshepherd/adapt-sublime/raw/dev/Images/adapt-sublime-3.jpg  "Sublime search guesses snippet titles")
 
 Sublime search guesses snippet titles
 
