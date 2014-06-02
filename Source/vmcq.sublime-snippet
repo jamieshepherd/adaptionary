@@ -1,0 +1,69 @@
+<snippet>
+    <content><![CDATA[
+    {
+        "_id":"$1",
+        "_parentId":"$2",
+        "_type":"component",
+        "_component":"vmcq",
+        "_classes":"",
+        "_layout":"$3",
+        "_attempts":$4,
+        "_questionWeight":$5,
+        "_isRandom":false,
+        "_selectable":$6,
+        "_completeOnWatched":$7,
+        "title": "$8",
+        "displayTitle": "$9",
+        "body": "$10",
+        "instruction":"",
+        "_items": [
+            {
+                "text": "$12",
+                "_shouldBeSelected":$13,
+                "_shouldBeWatched":$14,
+                "_media": {
+                    "mp4": "$15",
+                    "ogv": "$16",
+                    "poster": "$17"
+                },
+                "footer": "$18"
+            },
+            {
+                "text": "$19",
+                "_shouldBeSelected":$20,
+                "_shouldBeWatched":$21,
+                "_media": {
+                    "mp4": "$22",
+                    "ogv": "$23",
+                    "poster": "$24"
+                },
+                "footer": "$25"
+            }
+        ],
+        "_feedback":{
+            "correct":"$26",
+            "_incorrect": {
+                "notFinal": "$27",
+                "final": "$28"
+            },
+            "_partlyCorrect": {
+                "notFinal": "$29",
+                "final": "$30"
+            }
+        },
+        "_buttons": {
+            "submit": "$31",
+            "reset": "$32",
+            "showCorrectAnswer": "$33",
+            "hideCorrectAnswer": "$34"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": $35
+        }
+    }
+]]>
+</content>
+    <tabTrigger>adapt-vmcq</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>
