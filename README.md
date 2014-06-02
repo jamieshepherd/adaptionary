@@ -5,9 +5,9 @@ Adapt-Sublime is a Sublime Text 3 package for working with the the [Adapt Learni
 
 ## Installation
 
-The easiest way to install Adapt is with [Package Control](https://sublime.wbond.net/) and adding the repository directly with `Package Control: Add Repository` from the command pallette (`CTRL+SHIFT+P` for Windows or `CMD+SHIFT+P` for Mac OS). 
+The easiest way to install Adapt is with [Package Control](https://sublime.wbond.net/) and adding the repository directly with `Package Control: Add Repository` from the command pallette (`CTRL+SHIFT+P` for Windows or `CMD+SHIFT+P` for Mac OS).
 
-You should type the master repository URL directly `https://github.com/jamieshepherd/adapt-sublime` and hit enter. This adds the repository to your Package control list. You can then open the command pallette again (`CTRL+SHIFT+P`) and install the package as usual with `Package Control: Install Package`. Adapt-sublime should show in the list, and Package Control will install the package shortly. 
+You should type the master repository URL directly `https://github.com/jamieshepherd/adapt-sublime` and hit enter. This adds the repository to your Package control list. You can then open the command pallette again (`CTRL+SHIFT+P`) and install the package as usual with `Package Control: Install Package`. Adapt-sublime should show in the list, and Package Control will install the package shortly.
 
 You can alternatively simply drop the .sublime_package file in your Sublime %APPDATA% folder.
 
@@ -25,6 +25,7 @@ The following are the current available commands for adapt-sublime:
 - `adapt-narrative`, `adapt-narrative-item`
 - `adapt-text`
 - `adapt-textinput`, `adapt-textinput-item`
+- `adapt-vmcq`
 
 ## Screenshots
 
