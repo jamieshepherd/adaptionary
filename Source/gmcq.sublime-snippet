@@ -4,33 +4,51 @@
     "_id":"$1",
     "_parentId":"$2",
     "_type":"component",
-    "_component":"mcq",
+    "_component":"gmcq",
     "_classes":"",
     "_layout":"$3",
-    "_attempts":$4,
-    "_questionWeight":$5,
-    "_isRandom":true,
-    "_selectable":$6,
-    "title": "$7",
-    "displayTitle": "$8",
-    "body": "$9",
-    "instruction": "<em>$10</em>",
+    "_attempts":1,
+    "_questionWeight":1,
+    "_isRandom":false,
+    "_selectable":1,
+    "title": "$3"
+    "displayTitle": "$4",
+    "body": "<p>$5</p>",
+    "instruction": "<em>$6</em>",
     "_items": [
         {
-            "text": "",
-            "_shouldBeSelected":false
+            "text": "$7",
+            "_shouldBeSelected":false,
+            "_graphic": {
+                "alt": "",
+                "title": "",
+                "large": "http://placehold.it/227x140",
+                "medium": "http://placehold.it/480x300",
+                "small": "http://placehold.it/480x300"
+            }
+        },
+        {
+            "text": "$8",
+            "_shouldBeSelected":false,
+            "_graphic": {
+                "alt": "",
+                "title": "",
+                "large": "http://placehold.it/227x140",
+                "medium": "http://placehold.it/480x300",
+                "small": "http://placehold.it/480x300"
+            }
         }
     ],
     "_feedback":{
-        "correct":"$11",
+        "correct":"$9",
         "_incorrect": {
             "notFinal": "",
-            "final": "$12"
+            "final": "???"
         },
         "_partlyCorrect": {
             "notFinal": "",
-            "final": "$13"
-      }
+            "final": "???"
+        }
     },
     "_buttons":{
         "submit":"",
@@ -38,10 +56,10 @@
         "showCorrectAnswer":"",
         "hideCorrectAnswer":""
     },
-  "_pageLevelProgress": {
+    "_pageLevelProgress": {
       "_isEnabled": true
-  }
-}$14
+    }
+}
 ]]></content>
     <tabTrigger>adapt-gmcq</tabTrigger>
     <scope>source.json</scope>

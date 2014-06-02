@@ -2,8 +2,15 @@
     <content><![CDATA[
 {
     "text": "$1",
-    "_shouldBeSelected":$2
-}$3
+    "_shouldBeSelected":false,
+    "_graphic": {
+        "alt": "",
+        "title": "",
+        "large": "http://placehold.it/227x140",
+        "medium": "http://placehold.it/480x300",
+        "small": "http://placehold.it/480x300"
+    }
+},
 ]]></content>
     <tabTrigger>adapt-gmcq-item</tabTrigger>
     <scope>source.json</scope>
