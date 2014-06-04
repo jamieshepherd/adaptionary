@@ -3,7 +3,7 @@
 {
   "alt": "$1",
   "title": "$2",
-  "body": "$3"
+  "body": "<p>$3</p>"
 }$4
 ]]></content>
     <tabTrigger>adapt-accordion-item</tabTrigger>

@@ -6,7 +6,7 @@
     "_type":"component",
     "_component":"text",
     "_classes":"",
-    "_layout":"$3",
+    "_layout":"${3:left}",
     "title":"$4",
     "displayTitle":"$5",
     "body":"$6",

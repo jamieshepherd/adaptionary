@@ -7,26 +7,26 @@
     "_type":"component",
     "_layout": "full",
     "_component": "narrative",
-    "title": "$4",
-    "displayTitle": "$5",
-    "body": "$6",
-    "instruction": "<em>$7</em>",
+    "title": "$3",
+    "displayTitle": "$4",
+    "body": "$5",
+    "instruction": "<em>$6</em>",
     "_items": [
         {
-            "title": "$8",
-            "body": "$9",
+            "title": "$7",
+            "body": "$8",
             "_graphic": {
-                "src": "http://placehold.it/590x400",
-                "alt": "",
-                "title": ""
+                "src": "${9:http://placehold.it/590x400}",
+                "alt": "$10",
+                "title": "$11"
             },
-            "strapline": ""
+            "strapline": "$12"
         }
     ],
     "_pageLevelProgress": {
-        "_isEnabled": true
+    "_isEnabled": true
     }
-}$10
+}$13
 ]]></content>
     <tabTrigger>adapt-narrative</tabTrigger>
     <scope>source.json</scope>

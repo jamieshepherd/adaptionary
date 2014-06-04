@@ -6,30 +6,30 @@
     "_type":"component",
     "_component":"mcq",
     "_classes":"",
-    "_layout":"left",
-    "_attempts":1,
-    "_questionWeight":0,
-    "_isRandom":true,
-    "_selectable":1,
-    "title": "$3",
-    "displayTitle": "$4",
-    "body": "$5",
-    "instruction": "<em>$6</em>",
+    "_layout":"${3:left}",
+    "_attempts":${4:1},
+    "_questionWeight":${5:1},
+    "_isRandom":${6:true},
+    "_selectable":${7:1},
+    "title": "$8",
+    "displayTitle": "$9",
+    "body": "$10",
+    "instruction": "<em>$11</em>",
     "_items": [
         {
-            "text": "",
-            "_shouldBeSelected":false
+            "text": "$12",
+            "_shouldBeSelected": ${13:false}
         }
     ],
     "_feedback":{
-        "correct":"$6",
+        "correct":"$14",
         "_incorrect": {
-            "notFinal": "",
-            "final": "$7"
+            "notFinal": "$15",
+            "final": "$16"
         },
         "_partlyCorrect": {
-            "notFinal": "",
-            "final": "$8"
+            "notFinal": "$17",
+            "final": "$18"
       }
     },
     "_buttons":{
@@ -38,10 +38,10 @@
         "showCorrectAnswer":"",
         "hideCorrectAnswer":""
     },
-  "_pageLevelProgress": {
-      "_isEnabled": true
+    "_pageLevelProgress": {
+    "_isEnabled": true
   }
-}$9
+}$19
 ]]></content>
     <tabTrigger>adapt-mcq</tabTrigger>
     <scope>source.json</scope>

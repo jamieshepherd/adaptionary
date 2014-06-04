@@ -6,21 +6,21 @@
     "_type":"component",
     "_component":"media",
     "_classes":"",
-    "_layout":"left",
-    "title":"$3",
-    "displayTitle": "$4",
-    "body": "$5",
-    "instruction": "<em>$6</em>",
-    "_setCompletionOn":"ended",
+    "_layout":"${3:left}",
+    "title":"$4",
+    "displayTitle": "$5",
+    "body": "$6",
+    "instruction": "<em>$7</em>",
+    "_setCompletionOn":"${8:ended}",
     "_media": {
-        "mp4": "$7",
-        "ogv": "$8",
-        "poster": "$9"
+        "mp4": "$9",
+        "ogv": "$10",
+        "poster": "$11"
     },
     "_pageLevelProgress": {
         "_isEnabled": true
     }
-}$10
+}$12
 ]]></content>
     <tabTrigger>adapt-media</tabTrigger>
     <scope>source.json</scope>

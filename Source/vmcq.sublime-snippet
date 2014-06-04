@@ -1,66 +1,66 @@
 <snippet>
     <content><![CDATA[
-    {
-        "_id":"$1",
-        "_parentId":"$2",
-        "_type":"component",
-        "_component":"vmcq",
-        "_classes":"",
-        "_layout":"$3",
-        "_attempts":$4,
-        "_questionWeight":$5,
-        "_isRandom":false,
-        "_selectable":$6,
-        "_completeOnWatched":$7,
-        "title": "$8",
-        "displayTitle": "$9",
-        "body": "$10",
-        "instruction":"",
-        "_items": [
-            {
-                "text": "$12",
-                "_shouldBeSelected":$13,
-                "_shouldBeWatched":$14,
-                "_media": {
-                    "mp4": "$15",
-                    "ogv": "$16",
-                    "poster": "$17"
-                },
-                "footer": "$18"
+{
+    "_id":"$1",
+    "_parentId":"$2",
+    "_type":"component",
+    "_component":"vmcq",
+    "_classes":"",
+    "_layout":"${3:left}",
+    "_attempts":${4:1},
+    "_questionWeight":${5:1},
+    "_isRandom":${6:false},
+    "_selectable":${7:1},
+    "_completeOnWatched":${8:true},
+    "title": "$9",
+    "displayTitle": "$10",
+    "body": "$11",
+    "instruction":"<em>$12</em>",
+    "_items": [
+        {
+            "text": "$13",
+            "_shouldBeSelected":${14:true},
+            "_shouldBeWatched":${15:true},
+            "_media": {
+                "mp4": "$16",
+                "ogv": "$17",
+                "poster": "$18"
             },
-            {
-                "text": "$19",
-                "_shouldBeSelected":$20,
-                "_shouldBeWatched":$21,
-                "_media": {
-                    "mp4": "$22",
-                    "ogv": "$23",
-                    "poster": "$24"
-                },
-                "footer": "$25"
-            }
-        ],
-        "_feedback":{
-            "correct":"$26",
-            "_incorrect": {
-                "notFinal": "$27",
-                "final": "$28"
+            "footer": "$19"
+        },
+        {
+            "text": "$20",
+            "_shouldBeSelected":${21:true},
+            "_shouldBeWatched":${22:true},
+            "_media": {
+                "mp4": "$23",
+                "ogv": "$24",
+                "poster": "$25"
             },
-            "_partlyCorrect": {
-                "notFinal": "$29",
-                "final": "$30"
-            }
-        },
-        "_buttons": {
-            "submit": "$31",
-            "reset": "$32",
-            "showCorrectAnswer": "$33",
-            "hideCorrectAnswer": "$34"
-        },
-        "_pageLevelProgress": {
-            "_isEnabled": $35
+            "footer": "$26"
         }
+    ],
+    "_feedback":{
+        "correct":"$27",
+        "_incorrect": {
+            "notFinal": "$28",
+            "final": "$29"
+        },
+        "_partlyCorrect": {
+            "notFinal": "$30",
+            "final": "$31"
+        }
+    },
+    "_buttons":{
+        "submit":"",
+        "reset":"",
+        "showCorrectAnswer":"",
+        "hideCorrectAnswer":""
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
     }
+}$32
 ]]>
 </content>
     <tabTrigger>adapt-vmcq</tabTrigger>

@@ -2,7 +2,7 @@
     <content><![CDATA[
 {
     "text": "$1",
-    "_shouldBeSelected":$2
+    "_shouldBeSelected":${2:false}
 }$3
 ]]></content>
     <tabTrigger>adapt-mcq-item</tabTrigger>

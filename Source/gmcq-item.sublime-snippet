@@ -2,15 +2,15 @@
     <content><![CDATA[
 {
     "text": "$1",
-    "_shouldBeSelected":false,
+    "_shouldBeSelected":${2:false},
     "_graphic": {
-        "alt": "",
-        "title": "",
-        "large": "http://placehold.it/227x140",
-        "medium": "http://placehold.it/480x300",
-        "small": "http://placehold.it/480x300"
+        "alt": "$3",
+        "title": "$4",
+        "large": "${5:http://placehold.it/227x140}",
+        "medium": "${6:http://placehold.it/480x300}",
+        "small": "${7:http://placehold.it/480x300}"
     }
-},
+}$8
 ]]></content>
     <tabTrigger>adapt-gmcq-item</tabTrigger>
     <scope>source.json</scope>

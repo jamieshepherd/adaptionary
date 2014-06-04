@@ -6,44 +6,47 @@
     "_type":"component",
     "_component":"textinput",
     "_classes":"",
-    "_layout":"$3",
+    "_layout":"${3:left}",
     "title": "$4",
     "displayTitle": "$5",
     "body": "$6",
     "instruction": "<em>$7</em>",
-    "_attempts": $8,
-    "_questionWeight":$9,
+    "_attempts": ${8:1},
+    "_questionWeight":${9:1},
     "placeholder": "$10",
-    "_allowsAnyCase": true,
-    "_allowsPunctuation": true,
+    "_allowsAnyCase": ${11:true},
+    "_allowsPunctuation": ${12:true},
+    "_feedback": {
+        "correct": "$13",
+        "_incorrect": {
+            "notFinal": "$14",
+            "final": "$15"
+        },
+        "_partlyCorrect": {
+            "notFinal": "$16",
+            "final": "$17"
+        }
+    },
+    "_items": [
+        {
+            "prefix": "$18",
+            "suffix": "$19",
+            "_answers": [
+                "${20:one}",
+                "${21:1}"
+            ]
+        }
+    ],
     "_buttons":{
         "submit":"",
         "reset":"",
         "showCorrectAnswer":"",
         "hideCorrectAnswer":""
     },
-    "_feedback": {
-        "correct": "$11",
-        "_incorrect": {
-            "notFinal": "",
-            "final": "$12"
-        },
-        "_partlyCorrect": {
-            "notFinal": "",
-            "final": "$13"
-        }
-    },
-    "_items": [
-        {
-            "prefix": "",
-            "suffix": "",
-            "_answers": [
-                "one",
-                "1"
-            ]
-        }
-    ]
-}$14
+    "_pageLevelProgress": {
+    "_isEnabled": true
+    }
+}$22
 ]]></content>
     <tabTrigger>adapt-textinput</tabTrigger>
     <scope>source.json</scope>

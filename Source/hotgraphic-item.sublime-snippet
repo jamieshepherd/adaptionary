@@ -4,14 +4,14 @@
     "title": "$1",
     "body": "$2",
     "_graphic": {
-        "src": "http://placehold.it/480x320",
-        "alt": "$3",
-        "title": "$4"
+        "src": "${3:http://placehold.it/480x320}",
+        "alt": "$4",
+        "title": "$5"
     },
-    "strapline": "$5",
-    "_top": $6,
-    "_left": $7
-}$8
+    "strapline": "$6",
+    "_top": $7,
+    "_left": $8
+}$9
 ]]></content>
     <tabTrigger>adapt-hotgraphic-item</tabTrigger>
     <scope>source.json</scope>

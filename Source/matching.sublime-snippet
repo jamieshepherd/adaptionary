@@ -4,16 +4,16 @@
     "_id": "$1",
     "_parentId":"$2",
     "_classes": "",
-    "_layout": "$3",
+    "_layout": "${3:left}",
     "_type": "component",
     "_component": "matching",
-    "_attempts": 1,
-    "_isRandom":true,
-    "_questionWeight":0,
-    "title": "$4",
-    "displayTitle": "$5",
-    "body": "$5",
-    "instruction":"<em>$6</em>",
+    "_attempts": ${4:1},
+    "_isRandom":${5:true},
+    "_questionWeight":${6:1},
+    "title": "$7",
+    "displayTitle": "$8",
+    "body": "$9",
+    "instruction":"<em>$10</em>",
     "_buttons":{
         "submit":"",
         "reset":"",
@@ -21,28 +21,28 @@
         "hideCorrectAnswer":""
     },
     "_feedback": {
-        "correct": "$7",
+        "correct": "$11",
         "_incorrect": {
-            "notFinal": "",
-            "final": "$8"
+            "notFinal": "$12",
+            "final": "$13"
         },
         "_partlyCorrect": {
-            "notFinal": "",
-            "final": "$9"
+            "notFinal": "$14",
+            "final": "$15"
         }
     },
-    "placeholder": "select an option",
+    "placeholder": "${16:Select an option}",
     "_items": [
         {
-            "text": "",
+            "text": "$17",
             "_options": [
                 {
-                    "text": "",
-                    "_isCorrect": false
+                    "text": "$18",
+                    "_isCorrect": ${19:false}
                 },
                 {
                     "text": "",
-                    "_isCorrect": false
+                    "_isCorrect": ${20:false}
                 }
             ]
         }
@@ -50,7 +50,7 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     }
-}$10
+}$21
 ]]></content>
     <tabTrigger>adapt-matching</tabTrigger>
     <scope>source.json</scope>

@@ -6,7 +6,7 @@
     "_type":"component",
     "_component":"graphic",
     "_classes":"",
-    "_layout":"$3",
+    "_layout":"${3:left}",
     "title":"$4",
     "displayTitle":"$5",
     "body":"$6",
@@ -14,14 +14,14 @@
     "_graphic": {
         "alt": "$8",
         "title": "$9",
-        "large": "http://placehold.it/477x495",
-        "medium": "http://placehold.it/480x400",
-        "small": "http://placehold.it/480x520"
+        "large": "${10:http://placehold.it/477x495}",
+        "medium": "${11:http://placehold.it/480x400}",
+        "small": "${12:http://placehold.it/480x520}"
     },
     "_pageLevelProgress": {
-        "_isEnabled": false
+        "_isEnabled": true
     }
-}$10
+}$13
 ]]></content>
     <tabTrigger>adapt-graphic</tabTrigger>
     <scope>source.json</scope>

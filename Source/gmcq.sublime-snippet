@@ -6,6 +6,15 @@
     "_type":"component",
     "_component":"gmcq",
     "_classes":"",
+    "_layout":"${3:left}",
+    "_attempts":${4:1},
+    "_questionWeight":${5:1},
+    "_isRandom":${6:false},
+    "_selectable":${7:1},
+    "title": "$8"
+    "displayTitle": "$9",
+    "body": "<p>$10</p>",
+    "instruction": "<em>$11</em>",
     "_layout":"left",
     "_attempts":1,
     "_questionWeight":1,
@@ -17,8 +26,8 @@
     "instruction": "<em>$6</em>",
     "_items": [
         {
-            "text": "$7",
-            "_shouldBeSelected":false,
+            "text": "$12",
+            "_shouldBeSelected":${13:false},
             "_graphic": {
                 "alt": "",
                 "title": "",
@@ -28,8 +37,8 @@
             }
         },
         {
-            "text": "$8",
-            "_shouldBeSelected":false,
+            "text": "$14",
+            "_shouldBeSelected":${15:false},
             "_graphic": {
                 "alt": "",
                 "title": "",
@@ -40,14 +49,14 @@
         }
     ],
     "_feedback":{
-        "correct":"$9",
+        "correct":"$16",
         "_incorrect": {
-            "notFinal": "",
-            "final": "???"
+            "notFinal": "$17",
+            "final": "$18"
         },
         "_partlyCorrect": {
-            "notFinal": "",
-            "final": "???"
+            "notFinal": "$19",
+            "final": "$20"
         }
     },
     "_buttons":{
@@ -59,7 +68,7 @@
     "_pageLevelProgress": {
       "_isEnabled": true
     }
-}
+}$21
 ]]></content>
     <tabTrigger>adapt-gmcq</tabTrigger>
     <scope>source.json</scope>

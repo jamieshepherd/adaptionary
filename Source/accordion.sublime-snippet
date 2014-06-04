@@ -6,7 +6,7 @@
   "_type":"component",
   "_component":"accordion",
   "_classes":"",
-  "_layout":"$3",
+  "_layout":"${3:left}",
   "title": "$4",
   "displayTitle": "$5",
   "body": "$6",
@@ -15,13 +15,13 @@
     {
       "alt": "",
       "title": "",
-      "body": "<p></p>"
+      "body": "<p>$8</p>"
     }
   ],
   "_pageLevelProgress": {
     "_isEnabled": true
   }
-}
+}$9
 ]]></content>
     <tabTrigger>adapt-accordion</tabTrigger>
     <scope>source.json</scope>
