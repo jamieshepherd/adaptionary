@@ -11,7 +11,7 @@
     "_questionWeight":${5:1},
     "_isRandom":${6:false},
     "_selectable":${7:1},
-    "title": "$8"
+    "title": "$8",
     "displayTitle": "$9",
     "body": "<p>$10</p>",
     "instruction": "<em>$11</em>",
