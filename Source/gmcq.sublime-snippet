@@ -15,15 +15,6 @@
     "displayTitle": "$9",
     "body": "<p>$10</p>",
     "instruction": "<em>$11</em>",
-    "_layout":"left",
-    "_attempts":1,
-    "_questionWeight":1,
-    "_isRandom":false,
-    "_selectable":1,
-    "title": "$3",
-    "displayTitle": "$4",
-    "body": "<p>$5</p>",
-    "instruction": "<em>$6</em>",
     "_items": [
         {
             "text": "$12",
