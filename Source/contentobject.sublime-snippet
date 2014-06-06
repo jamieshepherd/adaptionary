@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+{
+        "_id":"$1",
+        "_parentId":"$2",
+        "_type":"page",
+        "_classes":"",
+        "title":"$3",
+        "displayTitle":"$4",
+        "body":"$5",
+        "_graphic": {
+            "alt": "%6",
+            "src": "http://placehold.it/600x400"
+        },
+        "linkText":"%7",
+        "duration":"%8"
+    }$9
+]]></content>
+    <tabTrigger>adapt-contentobject</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 1.1</description>
+</snippet>
