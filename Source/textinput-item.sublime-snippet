@@ -9,7 +9,7 @@
     ]
 }$5
 ]]></content>
-    <tabTrigger>adapt-textinput-item</tabTrigger>
+    <tabTrigger>adapt-textInput-item</tabTrigger>
     <scope>source.json</scope>
     <description>Adapt 1.1</description>
 </snippet>

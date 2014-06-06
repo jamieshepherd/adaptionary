@@ -9,14 +9,14 @@
     "displayTitle":"$4",
     "body":"$5",
     "_graphic": {
-        "alt": "%6",
+        "alt": "$6",
         "src": "${7:http://placehold.it/600x400}"
     },
-    "linkText":"%8",
-    "duration":"%9"
+    "linkText":"$8",
+    "duration":"$9"
 }$10
 ]]></content>
-    <tabTrigger>adapt-contentobject</tabTrigger>
+    <tabTrigger>adapt-contentObject</tabTrigger>
     <scope>source.json</scope>
     <description>Adapt 1.1</description>
 </snippet>
