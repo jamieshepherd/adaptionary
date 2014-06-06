@@ -33,6 +33,12 @@ The following are the current available commands for adapt-sublime:
 - `adapt-textinput`, `adapt-textinput-item`
 - `adapt-vmcq`
 
+You can now also add parent elements, such as contentObjects, articles, and blocks:
+
+- `adapt-contentObject`
+- `adapt-article`
+- `adapt-block`
+
 ## Screenshots
 
 ![alt text](https://github.com/jamieshepherd/adapt-sublime/raw/master/Images/adapt-sublime-1.jpg "Simple dropdown snippets")
