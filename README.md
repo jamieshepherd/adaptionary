@@ -7,17 +7,16 @@ Adaptionary is a Sublime Text 3 package for working with the the [Adapt Learning
 
 ## Installation
 
-The easiest way to install Adaptionary is with [Package Control](https://sublime.wbond.net/) and adding the repository directly with `Package Control: Add Repository` from the command pallette (`CTRL+SHIFT+P` for Windows or `CMD+SHIFT+P` for Mac OS).
+The easiest way to install Adaptionary is with [Package Control](https://sublime.wbond.net/) which once installed can be brought up with the command pallette (`CTRL+SHIFT+P` for Windows or `CMD+SHIFT+P` for Mac OS).
 
-You should type the master repository URL directly `https://github.com/jamieshepherd/adaptionary` and hit enter. This adds the repository to your Package control list. You can then open the command pallette again (`CTRL+SHIFT+P`) and install the package as usual with `Package Control: Install Package`. Adaptionary should show in the list, and Package Control will install the package shortly.
+Type and select `Package Control: Install Package` from the menu and start searching for Adaptionary. Adaptionary should show in the list, and when selected, Package Control will install the package automatically. That's it!
 
 To recap, that's two simple steps for installing with Package Control:
-* `Package Control: Add Repository` -> `https://github.com/jamieshepherd/adaptionary`
 * `Package Control: Install Package` -> `Adaptionary`
 
 **Updates will automatically install if you've installed the extension by this method**
 
-You can alternatively simply drop the .sublime_package file in your Sublime %APPDATA% folder.
+You can alternatively simply drop the .sublime_package file from releases in to your Sublime %APPDATA% folder.
 
 ## Usage
 
