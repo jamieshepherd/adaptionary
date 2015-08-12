@@ -6,15 +6,15 @@
     "_type": "component",
     "_component": "text",
     "_classes": "$3",
-    "_layout": "{$4:left}",
-    "title": "{$5:Text component}",
-    "displayTitle": "{$6:Text component}",
+    "_layout": "${4:left}",
+    "title": "${5:Text component}",
+    "displayTitle": "${6:Text component}",
     "body": "$7",
     "instruction": "$8",
     "_pageLevelProgress": {
-        "_isEnabled": {$9:true}
+        "_isEnabled": ${9:true}
     }
-}{$10:,}
+}${10:,}
 ]]></content>
     <tabTrigger>adapt-text</tabTrigger>
     <scope>source.json</scope>

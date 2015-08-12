@@ -5,30 +5,30 @@
     "_parentId": "$2",
     "_classes": "$3",
     "_type": "component",
-    "_layout": "{$4:full}",
+    "_layout": "${4:full}",
     "_component": "narrative",
-    "title": "{$5:Narrative component}",
-    "displayTitle": "{$6:Narrative component}",
+    "title": "${5:Narrative component}",
+    "displayTitle": "${6:Narrative component}",
     "body": "$7",
     "instruction": "$8",
-    "_hasNavigationInTextArea": {$9:false},
+    "_hasNavigationInTextArea": ${9:false},
     "mobileInstruction": "$10",
-    "_setCompletionOn": "{$11:allItems}",
+    "_setCompletionOn": "${11:allItems}",
     "_items": [
     {
-        "title": "{$12:Narrative stage 1 title}",
+        "title": "${12:Narrative stage 1 title}",
         "body": "$13",
         "_graphic":
         {
-            "src": "{$14:course/en/images/image-slider-1.jpg}",
-            "alt": "{$15:First graphic}"
+            "src": "${14:course/en/images/image-slider-1.jpg}",
+            "alt": "${15:First graphic}"
         },
-        "strapline": "{$16:Here is the first...}"
+        "strapline": "${16:Here is the first...}"
     }],
     "_pageLevelProgress": {
-        "_isEnabled": {$17:true}
+        "_isEnabled": ${17:true}
     }
- }{$18:,}
+ }${18:,}
 ]]></content>
     <tabTrigger>adapt-narrative</tabTrigger>
     <scope>source.json</scope>

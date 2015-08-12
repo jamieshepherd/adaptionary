@@ -6,49 +6,49 @@
     "_type": "component",
     "_component": "gmcq",
     "_classes": "$3",
-    "_layout": "{$4:full}",
-    "_attempts": {$5:1},
-    "_shouldDisplayAttempts": {$6:false},
-    "_questionWeight": {$7:1},
-    "_isRandom": {$8:false},
-    "_selectable": {$9:1},
-    "title": "{$10:GMCQ component}",
-    "displayTitle": "{$11:GMCQ component}",
+    "_layout": "${4:full}",
+    "_attempts": ${5:1},
+    "_shouldDisplayAttempts": ${6:false},
+    "_questionWeight": ${7:1},
+    "_isRandom": ${8:false},
+    "_selectable": ${9:1},
+    "title": "${10:GMCQ component}",
+    "displayTitle": "${11:GMCQ component}",
     "body": "$12",
     "instruction": "$13",
     "_items": [
     {
-        "text": "{$14:This is option 1.}",
-        "_shouldBeSelected": {$15:true},
+        "text": "${14:This is option 1.}",
+        "_shouldBeSelected": ${15:true},
         "_graphic":
         {
-            "alt": "{$16:Alt text for option 1}",
-            "large": "{$17:course/en/images/gqcq-1-large.gif}",
-            "small": "{$18:course/en/images/gqcq-1-small.gif}"
+            "alt": "${16:Alt text for option 1}",
+            "large": "${17:course/en/images/gqcq-1-large.gif}",
+            "small": "${18:course/en/images/gqcq-1-small.gif}"
         }
     },
     {
-        "text": "{$19:This is option 2.}",
-        "_shouldBeSelected": {$20:false},
+        "text": "${19:This is option 2.}",
+        "_shouldBeSelected": ${20:false},
         "_graphic":
         {
-            "alt": "{$21:Alt text for option 2}",
-            "large": "{$22:course/en/images/gqcq-2-large.gif}",
-            "small": "{$23:course/en/images/gqcq-2-small.gif}"
+            "alt": "${21:Alt text for option 2}",
+            "large": "${22:course/en/images/gqcq-2-large.gif}",
+            "small": "${23:course/en/images/gqcq-2-small.gif}"
         }
     }],
     "_feedback":
     {
-        "correct": "{$24:Congratulations, this is the correct feedback.}",
+        "correct": "${24:Congratulations, this is the correct feedback.}",
         "_incorrect":
         {
             "notFinal": "$25",
-            "final": "{$26:Unfortunately this is the incorrect feedback.}"
+            "final": "${26:Unfortunately this is the incorrect feedback.}"
         },
         "_partlyCorrect":
         {
             "notFinal": "$27",
-            "final": "{$28:This is the partly correct feedback.}"
+            "final": "${28:This is the partly correct feedback.}"
         }
     },
     "_buttons":
@@ -82,9 +82,9 @@
         "remainingAttemptText": "final attempt"
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$29:true}
+        "_isEnabled": ${29:true}
     }
-}{$30:,}
+}${30:,}
 ]]></content>
     <tabTrigger>adapt-gmcq</tabTrigger>
     <scope>source.json</scope>

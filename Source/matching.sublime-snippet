@@ -6,27 +6,27 @@
     "_classes": "",
     "_type": "component",
     "_component": "matching",
-    "_layout": "{$3:left}",
-    "_attempts": {$4:2},
-    "_shouldDisplayAttempts": {$5:false},
-    "_isRandom": {$6:true},
-    "_questionWeight": {$7:10},
-    "title": "{$8:Matching component}",
-    "displayTitle": "{$9:Matching component}",
+    "_layout": "${3:left}",
+    "_attempts": ${4:2},
+    "_shouldDisplayAttempts": ${5:false},
+    "_isRandom": ${6:true},
+    "_questionWeight": ${7:10},
+    "title": "${8:Matching component}",
+    "displayTitle": "${9:Matching component}",
     "body": "$10",
     "instruction": "$11",
-    "placeholder": "{$12:select an option}",
+    "placeholder": "${12:select an option}",
     "_items": [
     {
-        "text": "{$13:Pick option two}",
+        "text": "${13:Pick option two}",
         "_options": [
         {
-            "text": "{$14:Option one}",
-            "_isCorrect": {$15:false}
+            "text": "${14:Option one}",
+            "_isCorrect": ${15:false}
         },
         {
-            "text": "{$16:Option two (correct)}",
-            "_isCorrect": {$17:true}
+            "text": "${16:Option two (correct)}",
+            "_isCorrect": ${17:true}
         }]
     }],
     "_buttons":
@@ -61,22 +61,22 @@
     },
     "_feedback":
     {
-        "correct": "{$18:This feedback will appear if you answered the question correctly.}",
+        "correct": "${18:This feedback will appear if you answered the question correctly.}",
         "_incorrect":
         {
             "notFinal": "$19",
-            "final": "{$20:This feedback will appear if you answered the question incorrectly.}"
+            "final": "${20:This feedback will appear if you answered the question incorrectly.}"
         },
         "_partlyCorrect":
         {
             "notFinal": "$21",
-            "final": "{$22:This feedback will appear if you answered part of the question correctly.}"
+            "final": "${22:This feedback will appear if you answered part of the question correctly.}"
         }
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$23:true}
+        "_isEnabled": ${23:true}
     }
-}{$24:,}
+}${24:,}
 ]]></content>
     <tabTrigger>adapt-matching</tabTrigger>
     <scope>source.json</scope>

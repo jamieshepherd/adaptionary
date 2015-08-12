@@ -6,26 +6,26 @@
     "_type": "component",
     "_component": "textinput",
     "_classes": "$3",
-    "_layout": "{$4:right}",
-    "title": "{$5:Text input component}",
-    "displayTitle": "{$6:Text input component}",
+    "_layout": "${4:right}",
+    "title": "${5:Text input component}",
+    "displayTitle": "${6:Text input component}",
     "body": "$7",
     "instruction": "$8",
-    "_attempts": {$9:1},
-    "_shouldDisplayAttempts": {$10:false},
-    "_questionWeight": {$11:10},
-    "_isRandom": {$12:false},
-    "_allowsAnyCase": {$13:true},
-    "_allowsPunctuation": {$14:true},
+    "_attempts": ${9:1},
+    "_shouldDisplayAttempts": ${10:false},
+    "_questionWeight": ${11:10},
+    "_isRandom": ${12:false},
+    "_allowsAnyCase": ${13:true},
+    "_allowsPunctuation": ${14:true},
     "_items": [
     {
-        "prefix": "{$15:B:}",
-        "suffix": "{$16:%}",
+        "prefix": "${15:B:}",
+        "suffix": "${16:%}",
         "_answers": [
-            "{$17:2}",
-            "{$18:two}"
+            "${17:2}",
+            "${18:two}"
         ],
-        "placeholder": "{$19:Enter answer here}"
+        "placeholder": "${19:Enter answer here}"
     }],
     "_buttons":
     {
@@ -59,22 +59,22 @@
     },
     "_feedback":
     {
-        "correct": "{$20:This feedback will appear if you answered the question correctly.}",
+        "correct": "${20:This feedback will appear if you answered the question correctly.}",
         "_incorrect":
         {
             "notFinal": "$21",
-            "final": "{$22:This feedback will appear if you answered the question incorrectly.}"
+            "final": "${22:This feedback will appear if you answered the question incorrectly.}"
         },
         "_partlyCorrect":
         {
             "notFinal": "$23",
-            "final": "{$24:This feedback will appear if you answered part of the question correctly.}"
+            "final": "${24:This feedback will appear if you answered part of the question correctly.}"
         }
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$25:true}
+        "_isEnabled": ${25:true}
     }
-}{$26:,}
+}${26:,}
 ]]></content>
     <tabTrigger>adapt-textInput</tabTrigger>
     <scope>source.json</scope>

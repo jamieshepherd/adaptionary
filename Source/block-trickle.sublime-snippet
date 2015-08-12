@@ -5,14 +5,14 @@
    "_parentId": "$2",
    "_type": "block",
    "_classes": "$3",
-   "title": "{$4:Block}",
-   "displayTitle": "{$5:Block}",
+   "title": "${4:Block}",
+   "displayTitle": "${5:Block}",
    "body": "$6",
    "_trickle":
    {
-       "_isEnabled": {$7:true},
-       "_duration": {$8:500},
-       "_autoScroll": {$9:true},
+       "_isEnabled": ${7:true},
+       "_duration": ${8:500},
+       "_autoScroll": ${9:true},
        "_button":
        {
            "_isEnabled": true,
@@ -27,14 +27,14 @@
        },
        "_stepLocking":
        {
-           "_isEnabled": {$10:true},
-           "_isCompletionRequired": {$11:true},
-           "_isLockedOnRevisit": {$12:false}
+           "_isEnabled": ${10:true},
+           "_isCompletionRequired": ${11:true},
+           "_isLockedOnRevisit": ${12:false}
        },
-       "_scrollTo": "{$13:@block +1}"
+       "_scrollTo": "${13:@block +1}"
    },
-   "_trackingId": {$14:0}
-}{$15:,}
+   "_trackingId": ${14:0}
+}${15:,}
 ]]></content>
     <tabTrigger>adapt-block-trickle</tabTrigger>
     <scope>source.json</scope>

@@ -6,37 +6,37 @@
     "_type": "component",
     "_component": "mcq",
     "_classes": "$3",
-    "_layout": "{$4:left}",
-    "_attempts": {$5:1},
-    "_shouldDisplayAttempts": {$6:false},
-    "_questionWeight": {$7:1},
-    "_isRandom": {$8:false},
-    "_selectable": {$9:1},
-    "title": "{$10:MCQ component}",
-    "displayTitle": "{$11:MCQ component}",
+    "_layout": "${4:left}",
+    "_attempts": ${5:1},
+    "_shouldDisplayAttempts": ${6:false},
+    "_questionWeight": ${7:1},
+    "_isRandom": ${8:false},
+    "_selectable": ${9:1},
+    "title": "${10:MCQ component}",
+    "displayTitle": "${11:MCQ component}",
     "body": "$12",
     "instruction": "$13",
     "_items": [
     {
-        "text": "{$14:This is option 1.}",
-        "_shouldBeSelected": {$15:true}
+        "text": "${14:This is option 1.}",
+        "_shouldBeSelected": ${15:true}
     },
     {
-        "text": "{$16:This is option 2.}",
-        "_shouldBeSelected": {$17:false}
+        "text": "${16:This is option 2.}",
+        "_shouldBeSelected": ${17:false}
     }],
     "_feedback":
     {
-        "correct": "{$18:Congratulations, this is the correct feedback.}",
+        "correct": "${18:Congratulations, this is the correct feedback.}",
         "_incorrect":
         {
             "notFinal": "$19",
-            "final": "{$20:This feedback will appear if you answered the question incorrectly.}"
+            "final": "${20:This feedback will appear if you answered the question incorrectly.}"
         },
         "_partlyCorrect":
         {
             "notFinal": "$21",
-            "final": "{$22:This feedback will appear if you answered the question correctly.}"
+            "final": "${22:This feedback will appear if you answered the question correctly.}"
         }
     },
     "_buttons":
@@ -70,9 +70,9 @@
         "remainingAttemptText": "final attempt"
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$23:true}
+        "_isEnabled": ${23:true}
     }
-}{$24:,}
+}${24:,}
 ]]></content>
     <tabTrigger>adapt-mcq</tabTrigger>
     <scope>source.json</scope>

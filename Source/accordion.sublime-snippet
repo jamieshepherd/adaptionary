@@ -7,33 +7,33 @@
     "_component": "accordion",
     "_classes": "$3",
     "_layout": "${4:left}",
-    "title": "{$5:Accordion component}",
-    "displayTitle": "{$6:Accordion component}",
+    "title": "${5:Accordion component}",
+    "displayTitle": "${6:Accordion component}",
     "body": "$7",
     "instruction": "$8",
     "_items": [
     {
-        "title": "{$9:Heading 1}",
-        "body": "{$10:This is display text 1.}",
+        "title": "${9:Heading 1}",
+        "body": "${10:This is display text 1.}",
         "_graphic":
         {
-            "src": "{$11:course/en/images/example.jpg}",
-            "alt": "{$12:accordion item 1 graphic alt text here.}"
+            "src": "${11:course/en/images/example.jpg}",
+            "alt": "${12:accordion item 1 graphic alt text here.}"
         }
     },
     {
-        "title": "{$13:Heading 2}",
-        "body": "{$14:This is display text 2.}",
+        "title": "${13:Heading 2}",
+        "body": "${14:This is display text 2.}",
         "_graphic":
         {
-            "src": "{$15:course/en/images/example.jpg}",
-            "alt": "{$16:accordion item 2 graphic alt text here.}"
+            "src": "${15:course/en/images/example.jpg}",
+            "alt": "${16:accordion item 2 graphic alt text here.}"
         }
     }],
     "_pageLevelProgress": {
-        "_isEnabled": {$17:true}
+        "_isEnabled": ${17:true}
     }
-}{$18:,}
+}${18:,}
 ]]></content>
     <tabTrigger>adapt-accordion</tabTrigger>
     <scope>source.json</scope>

@@ -6,42 +6,42 @@
     "_classes": "$3",
     "_type": "component",
     "_component": "hotgraphic",
-    "_layout": "{$4:full}",
-    "title": "{$5:Hot graphic component}",
-    "displayTitle": "{$6:Hot graphic component}",
+    "_layout": "${4:full}",
+    "title": "${5:Hot graphic component}",
+    "displayTitle": "${6:Hot graphic component}",
     "body": "$7",
     "mobileBody": "$8",
     "instruction": "$9",
     "mobileInstruction": "$10",
-    "_setCompletionOn": "{$11:allItems}",
-    "_useGraphicsAsPins": {$12:false},
-    "_canCycleThroughPagination": {$13:false},
-    "_hidePagination": {$14:false},
+    "_setCompletionOn": "${11:allItems}",
+    "_useGraphicsAsPins": ${12:false},
+    "_canCycleThroughPagination": ${13:false},
+    "_hidePagination": ${14:false},
     "_graphic":
     {
-        "src": "{$15:hot_graphic.jpg}",
-        "alt": "{$16:alt text}"
+        "src": "${15:hot_graphic.jpg}",
+        "alt": "${16:alt text}"
     },
     "_items": [
     {
-        "title": "{$17:Hotspot 1 title}",
-        "body": "{$18:This is display text 1.}",
+        "title": "${17:Hotspot 1 title}",
+        "body": "${18:This is display text 1.}",
         "_graphic":
         {
-            "src": "{$19:image1.jpg}",
-            "alt": "{$20:alt text}",
+            "src": "${19:image1.jpg}",
+            "alt": "${20:alt text}",
             "_classes": "$21"
         },
-        "pinAlt": "{$22:alt text}",
-        "strapline": "{$23:strapline...}",
+        "pinAlt": "${22:alt text}",
+        "strapline": "${23:strapline...}",
         "_classes": "top-left",
-        "_top": {$24:5},
-        "_left": {$25:20}
+        "_top": ${24:5},
+        "_left": ${25:20}
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$26:true}
+        "_isEnabled": ${26:true}
     }
-}{$27:,}
+}${27:,}
 ]]></content>
     <tabTrigger>adapt-hotgraphic</tabTrigger>
     <scope>source.json</scope>

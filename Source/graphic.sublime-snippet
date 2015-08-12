@@ -6,22 +6,22 @@
     "_type": "component",
     "_component": "graphic",
     "_classes": "$3",
-    "_layout": "{$4:left}",
-    "title": "{$5:Graphic component}",
-    "displayTitle": "{$6:Graphic object}",
+    "_layout": "${4:left}",
+    "title": "${5:Graphic component}",
+    "displayTitle": "${6:Graphic object}",
     "body": "$7",
     "instruction": "$8",
     "_graphic":
     {
-        "alt": "{$9:alt text}",
-        "large": "{$10:https://placeholdit.imgix.net/~text?txtsize=38&txt=300%C3%97200&w=300&h=200}",
-        "small": "{$11:https://placeholdit.imgix.net/~text?txtsize=38&txt=300%C3%97200&w=300&h=200}",
-        "attribution": "{$12:Copyright © 2015}"
+        "alt": "${9:alt text}",
+        "large": "${10:https://placeholdit.imgix.net/~text?txtsize=38&txt=300%C3%97200&w=300&h=200}",
+        "small": "${11:https://placeholdit.imgix.net/~text?txtsize=38&txt=300%C3%97200&w=300&h=200}",
+        "attribution": "${12:Copyright © 2015}"
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$13:true}
+        "_isEnabled": ${13:true}
     }
-}{$14:,}
+}${14:,}
 ]]></content>
     <tabTrigger>adapt-graphic</tabTrigger>
     <scope>source.json</scope>

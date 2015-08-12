@@ -6,25 +6,25 @@
     "_type": "component",
     "_component": "slider",
     "_classes": "$3",
-    "_layout": "{$4:left}",
-    "title": "{$5:Slider type component}",
-    "displayTitle": "{$6:Slider type component}",
+    "_layout": "${4:left}",
+    "title": "${5:Slider type component}",
+    "displayTitle": "${6:Slider type component}",
     "body": "$7",
     "instruction": "$8",
-    "_attempts": {$9:2},
-    "_shouldDisplayAttempts": {$10:false},
-    "_questionWeight": {$11:1},
-    "_showNumber": {$12:true},
-    "_showScaleIndicator": {$13:true},
-    "labelStart": "{$14:incomplete}",
-    "labelEnd": "{$15:complete}",
-    "_scaleStart": {$16:1},
-    "_scaleEnd": {$16:10},
+    "_attempts": ${9:2},
+    "_shouldDisplayAttempts": ${10:false},
+    "_questionWeight": ${11:1},
+    "_showNumber": ${12:true},
+    "_showScaleIndicator": ${13:true},
+    "labelStart": "${14:incomplete}",
+    "labelEnd": "${15:complete}",
+    "_scaleStart": ${16:1},
+    "_scaleEnd": ${16:10},
     "_correctAnswer": "$17",
     "_correctRange":
     {
-        "_bottom": {$18:4},
-        "_top": {$19:9}
+        "_bottom": ${18:4},
+        "_top": ${19:9}
     },
     "_buttons":
     {
@@ -58,22 +58,22 @@
     },
     "_feedback":
     {
-        "correct": "{$20:This feedback will appear if you answered the question correctly.}",
+        "correct": "${20:This feedback will appear if you answered the question correctly.}",
         "_incorrect":
         {
             "notFinal": "$21",
-            "final": "{$22:This feedback will appear if you answered the question incorrectly.}"
+            "final": "${22:This feedback will appear if you answered the question incorrectly.}"
         },
         "_partlyCorrect":
         {
             "notFinal": "$23",
-            "final": "{$24:This feedback will appear if you answered part of the question correctly.}"
+            "final": "${24:This feedback will appear if you answered part of the question correctly.}"
         }
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$25:true}
+        "_isEnabled": ${25:true}
     }
-}{$26:,}
+}${26:,}
 ]]></content>
     <tabTrigger>adapt-slider</tabTrigger>
     <scope>source.json</scope>

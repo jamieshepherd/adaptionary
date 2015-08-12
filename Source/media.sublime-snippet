@@ -6,33 +6,33 @@
     "_type": "component",
     "_component": "media",
     "_classes": "$3",
-    "_layout": "{$4:left}",
-    "title": "{$5:Media component}",
-    "displayTitle": "{6:Media component}",
+    "_layout": "${4:left}",
+    "title": "${5:Media component}",
+    "displayTitle": "${6:Media component}",
     "body": "$7",
     "instruction": "$8",
-    "_setCompletionOn": "{$9:inview}",
-    "_useClosedCaptions": {$10:true},
+    "_setCompletionOn": "${9:inview}",
+    "_useClosedCaptions": ${10:true},
     "_media":
     {
-        "mp4": "{$11:course/assets/big_buck_bunny.mp4}",
-        "ogv": "{$12:course/assets/big_buck_bunny.ogv}",
-        "poster": "{$13:course/assets/big-buck-bunny.jpg}",
+        "mp4": "${11:course/assets/big_buck_bunny.mp4}",
+        "ogv": "${12:course/assets/big_buck_bunny.ogv}",
+        "poster": "${13:course/assets/big-buck-bunny.jpg}",
         "cc": [
         {
-            "srclang": "{$14:en}",
-            "src": "{$15:course/en/video/big_buck_bunny_sub.vtt}"
+            "srclang": "${14:en}",
+            "src": "${15:course/en/video/big_buck_bunny_sub.vtt}"
         }]
     },
     "_transcript":
     {
-        "_inlineTranscript": {$16:true},
-        "_externalTranscript": {$17:false},
-        "inlineTranscriptButton": "{$18"Transcript}",
-        "inlineTranscriptCloseButton": "{$19:Close Transcript}",
-        "inlineTranscriptBody": "{$20:Transcript body text should go here}",
-        "transcriptLinkButton": "{$21:Transcript}",
-        "transcriptLink": "{$22:assets/transcript.pdf}"
+        "_inlineTranscript": ${16:true},
+        "_externalTranscript": ${17:false},
+        "inlineTranscriptButton": "${18"Transcript}",
+        "inlineTranscriptCloseButton": "${19:Close Transcript}",
+        "inlineTranscriptBody": "${20:Transcript body text should go here}",
+        "transcriptLinkButton": "${21:Transcript}",
+        "transcriptLink": "${22:assets/transcript.pdf}"
     },
     "_playerOptions":
     {
@@ -73,9 +73,9 @@
         "slidesSelector": ""
     },
     "_pageLevelProgress": {
-        "_isEnabled": {$23:true}
+        "_isEnabled": ${23:true}
     }
-}{$24:,}
+}${24:,}
 ]]></content>
     <tabTrigger>adapt-media</tabTrigger>
     <scope>source.json</scope>

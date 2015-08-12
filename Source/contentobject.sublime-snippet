@@ -2,26 +2,26 @@
     <content><![CDATA[
 {
     "_id": "$1",
-    "_parentId": "{$2:course}",
+    "_parentId": "${2:course}",
     "_type": "page",
     "_classes": "$3",
-    "title": "{$4:Content object}",
-    "displayTitle": "{$5:Content object}",
+    "title": "${4:Content object}",
+    "displayTitle": "${5:Content object}",
     "pageBody": "$6",
     "body": "$7",
     "_graphic":
     {
-        "src": "{$8:course/en/images/menu_thumb.jpg}",
-        "alt": "{$9:Placeholder graphic.}"
+        "src": "${8:course/en/images/menu_thumb.jpg}",
+        "alt": "${9:Placeholder graphic.}"
     },
     "linkText": "View",
     "durationLabel": "Duration:$10",
-    "duration": "{$11:2 mins}",
+    "duration": "${11:2 mins}",
     "_pageLevelProgress":
     {
-        "_isEnabled": {$12:true}
+        "_isEnabled": ${12:true}
     }
-}{$13:,}
+}${13:,}
 ]]></content>
     <tabTrigger>adapt-contentObject</tabTrigger>
     <scope>source.json</scope>
