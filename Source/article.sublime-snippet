@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
 {
-    "_id":"$1",
-    "_parentId":"$2",
-    "_type":"article",
-    "_classes":"",
-    "title":"$3",
-    "displayTitle":"$4",
-    "body":"$5"
-}$6
+    "_id": "$1",
+    "_parentId": "$2",
+    "_type": "article",
+    "_classes": "",
+    "title": "$3",
+    "displayTitle": "$4",
+    "body": "$5",
+}{$6:,}
 ]]></content>
     <tabTrigger>adapt-article</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

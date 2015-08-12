@@ -1,49 +1,80 @@
 <snippet>
     <content><![CDATA[
 {
-    "_id":"$1",
-    "_parentId":"$2",
-    "_type":"component",
-    "_component":"mcq",
-    "_classes":"",
-    "_layout":"${3:left}",
-    "_attempts":${4:1},
-    "_questionWeight":${5:1},
-    "_isRandom":${6:true},
-    "_selectable":${7:1},
-    "title": "$8",
-    "displayTitle": "$9",
-    "body": "$10",
-    "instruction": "<em>$11</em>",
+    "_id": "$1",
+    "_parentId": "$2",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "$3",
+    "_layout": "{$4:left}",
+    "_attempts": {$5:1},
+    "_shouldDisplayAttempts": {$6:false},
+    "_questionWeight": {$7:1},
+    "_isRandom": {$8:false},
+    "_selectable": {$9:1},
+    "title": "{$10:MCQ component}",
+    "displayTitle": "{$11:MCQ component}",
+    "body": "$12",
+    "instruction": "$13",
     "_items": [
-        {
-            "text": "$12",
-            "_shouldBeSelected": ${13:false}
-        }
-    ],
-    "_feedback":{
-        "correct":"$14",
-        "_incorrect": {
-            "notFinal": "$15",
-            "final": "$16"
-        },
-        "_partlyCorrect": {
-            "notFinal": "$17",
-            "final": "$18"
-      }
+    {
+        "text": "{$14:This is option 1.}",
+        "_shouldBeSelected": {$15:true}
     },
-    "_buttons":{
-        "submit":"",
-        "reset":"",
-        "showCorrectAnswer":"",
-        "hideCorrectAnswer":""
+    {
+        "text": "{$16:This is option 2.}",
+        "_shouldBeSelected": {$17:false}
+    }],
+    "_feedback":
+    {
+        "correct": "{$18:Congratulations, this is the correct feedback.}",
+        "_incorrect":
+        {
+            "notFinal": "$19",
+            "final": "{$20:This feedback will appear if you answered the question incorrectly.}"
+        },
+        "_partlyCorrect":
+        {
+            "notFinal": "$21",
+            "final": "{$22:This feedback will appear if you answered the question correctly.}"
+        }
+    },
+    "_buttons":
+    {
+        "_submit":
+        {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset":
+        {
+            "buttonText": "Reset",
+            "ariaLabel": ""
+        },
+        "_showCorrectAnswer":
+        {
+            "buttonText": "Correct Answer",
+            "ariaLabel": ""
+        },
+        "_hideCorrectAnswer":
+        {
+            "buttonText": "My Answer",
+            "ariaLabel": ""
+        },
+        "_showFeedback":
+        {
+            "buttonText": "Show feedback",
+            "ariaLabel": ""
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt"
     },
     "_pageLevelProgress": {
-    "_isEnabled": true
-  }
-}$19
+        "_isEnabled": {$23:true}
+    }
+}{$24:,}
 ]]></content>
     <tabTrigger>adapt-mcq</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

@@ -9,9 +9,9 @@
     "displayTitle": "$4",
     "body": "$5",
     "_trackingId": ${6:0}
-}$7
+}{$7:,}
 ]]></content>
     <tabTrigger>adapt-block</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

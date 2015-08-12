@@ -1,67 +1,92 @@
 <snippet>
     <content><![CDATA[
 {
-    "_id":"$1",
-    "_parentId":"$2",
-    "_type":"component",
-    "_component":"gmcq",
-    "_classes":"",
-    "_layout":"${3:left}",
-    "_attempts":${4:1},
-    "_questionWeight":${5:1},
-    "_isRandom":${6:false},
-    "_selectable":${7:1},
-    "title": "$8",
-    "displayTitle": "$9",
-    "body": "<p>$10</p>",
-    "instruction": "<em>$11</em>",
+    "_id": "$1",
+    "_parentId": "$2",
+    "_type": "component",
+    "_component": "gmcq",
+    "_classes": "$3",
+    "_layout": "{$4:full}",
+    "_attempts": {$5:1},
+    "_shouldDisplayAttempts": {$6:false},
+    "_questionWeight": {$7:1},
+    "_isRandom": {$8:false},
+    "_selectable": {$9:1},
+    "title": "{$10:GMCQ component}",
+    "displayTitle": "{$11:GMCQ component}",
+    "body": "$12",
+    "instruction": "$13",
     "_items": [
+    {
+        "text": "{$14:This is option 1.}",
+        "_shouldBeSelected": {$15:true},
+        "_graphic":
         {
-            "text": "$12",
-            "_shouldBeSelected":${13:false},
-            "_graphic": {
-                "alt": "",
-                "title": "",
-                "large": "http://placehold.it/227x140",
-                "medium": "http://placehold.it/480x300",
-                "small": "http://placehold.it/480x300"
-            }
-        },
-        {
-            "text": "$14",
-            "_shouldBeSelected":${15:false},
-            "_graphic": {
-                "alt": "",
-                "title": "",
-                "large": "http://placehold.it/227x140",
-                "medium": "http://placehold.it/480x300",
-                "small": "http://placehold.it/480x300"
-            }
-        }
-    ],
-    "_feedback":{
-        "correct":"$16",
-        "_incorrect": {
-            "notFinal": "$17",
-            "final": "$18"
-        },
-        "_partlyCorrect": {
-            "notFinal": "$19",
-            "final": "$20"
+            "alt": "{$16:Alt text for option 1}",
+            "large": "{$17:course/en/images/gqcq-1-large.gif}",
+            "small": "{$18:course/en/images/gqcq-1-small.gif}"
         }
     },
-    "_buttons":{
-        "submit":"",
-        "reset":"",
-        "showCorrectAnswer":"",
-        "hideCorrectAnswer":""
+    {
+        "text": "{$19:This is option 2.}",
+        "_shouldBeSelected": {$20:false},
+        "_graphic":
+        {
+            "alt": "{$21:Alt text for option 2}",
+            "large": "{$22:course/en/images/gqcq-2-large.gif}",
+            "small": "{$23:course/en/images/gqcq-2-small.gif}"
+        }
+    }],
+    "_feedback":
+    {
+        "correct": "{$24:Congratulations, this is the correct feedback.}",
+        "_incorrect":
+        {
+            "notFinal": "$25",
+            "final": "{$26:Unfortunately this is the incorrect feedback.}"
+        },
+        "_partlyCorrect":
+        {
+            "notFinal": "$27",
+            "final": "{$28:This is the partly correct feedback.}"
+        }
+    },
+    "_buttons":
+    {
+        "_submit":
+        {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset":
+        {
+            "buttonText": "Reset",
+            "ariaLabel": ""
+        },
+        "_showCorrectAnswer":
+        {
+            "buttonText": "Correct Answer",
+            "ariaLabel": ""
+        },
+        "_hideCorrectAnswer":
+        {
+            "buttonText": "My Answer",
+            "ariaLabel": ""
+        },
+        "_showFeedback":
+        {
+            "buttonText": "Show feedback",
+            "ariaLabel": ""
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt"
     },
     "_pageLevelProgress": {
-      "_isEnabled": true
+        "_isEnabled": {$29:true}
     }
-}$21
+}{$30:,}
 ]]></content>
     <tabTrigger>adapt-gmcq</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

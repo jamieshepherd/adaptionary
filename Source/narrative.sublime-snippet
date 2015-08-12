@@ -1,34 +1,36 @@
 <snippet>
     <content><![CDATA[
- {
+{
     "_id": "$1",
     "_parentId": "$2",
-    "_classes": "",
-    "_type":"component",
-    "_layout": "full",
+    "_classes": "$3",
+    "_type": "component",
+    "_layout": "{$4:full}",
     "_component": "narrative",
-    "title": "$3",
-    "displayTitle": "$4",
-    "body": "$5",
-    "instruction": "<em>$6</em>",
+    "title": "{$5:Narrative component}",
+    "displayTitle": "{$6:Narrative component}",
+    "body": "$7",
+    "instruction": "$8",
+    "_hasNavigationInTextArea": {$9:false},
+    "mobileInstruction": "$10",
+    "_setCompletionOn": "{$11:allItems}",
     "_items": [
+    {
+        "title": "{$12:Narrative stage 1 title}",
+        "body": "$13",
+        "_graphic":
         {
-            "title": "$7",
-            "body": "$8",
-            "_graphic": {
-                "src": "${9:http://placehold.it/590x400}",
-                "alt": "$10",
-                "title": "$11"
-            },
-            "strapline": "$12"
-        }
-    ],
+            "src": "{$14:course/en/images/image-slider-1.jpg}",
+            "alt": "{$15:First graphic}"
+        },
+        "strapline": "{$16:Here is the first...}"
+    }],
     "_pageLevelProgress": {
-    "_isEnabled": true
+        "_isEnabled": {$17:true}
     }
-}$13
+ }{$18:,}
 ]]></content>
     <tabTrigger>adapt-narrative</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

@@ -1,28 +1,83 @@
 <snippet>
     <content><![CDATA[
 {
-    "_id":"$1",
-    "_parentId":"$2",
-    "_type":"component",
-    "_component":"media",
-    "_classes":"",
-    "_layout":"${3:left}",
-    "title":"$4",
-    "displayTitle": "$5",
-    "body": "$6",
-    "instruction": "<em>$7</em>",
-    "_setCompletionOn":"${8:ended}",
-    "_media": {
-        "mp4": "$9",
-        "ogv": "$10",
-        "poster": "$11"
+    "_id": "$1",
+    "_parentId": "$2",
+    "_type": "component",
+    "_component": "media",
+    "_classes": "$3",
+    "_layout": "{$4:left}",
+    "title": "{$5:Media component}",
+    "displayTitle": "{6:Media component}",
+    "body": "$7",
+    "instruction": "$8",
+    "_setCompletionOn": "{$9:inview}",
+    "_useClosedCaptions": {$10:true},
+    "_media":
+    {
+        "mp4": "{$11:course/assets/big_buck_bunny.mp4}",
+        "ogv": "{$12:course/assets/big_buck_bunny.ogv}",
+        "poster": "{$13:course/assets/big-buck-bunny.jpg}",
+        "cc": [
+        {
+            "srclang": "{$14:en}",
+            "src": "{$15:course/en/video/big_buck_bunny_sub.vtt}"
+        }]
+    },
+    "_transcript":
+    {
+        "_inlineTranscript": {$16:true},
+        "_externalTranscript": {$17:false},
+        "inlineTranscriptButton": "{$18"Transcript}",
+        "inlineTranscriptCloseButton": "{$19:Close Transcript}",
+        "inlineTranscriptBody": "{$20:Transcript body text should go here}",
+        "transcriptLinkButton": "{$21:Transcript}",
+        "transcriptLink": "{$22:assets/transcript.pdf}"
+    },
+    "_playerOptions":
+    {
+        "poster": "",
+        "showPosterWhenEnded": false,
+        "defaultVideoWidth": 480,
+        "defaultVideoHeight": 270,
+        "videoWidth": -1,
+        "videoHeight": -1,
+        "defaultAudioWidth": 400,
+        "defaultAudioHeight": 30,
+        "defaultSeekBackwardInterval": "(media.duration * 0.05)",
+        "defaultSeekForwardInterval": "(media.duration * 0.05)",
+        "audioWidth": -1,
+        "audioHeight": -1,
+        "startVolume": 0.8,
+        "loop": false,
+        "autoRewind": true,
+        "enableAutosize": true,
+        "alwaysShowHours": false,
+        "showTimecodeFrameCount": false,
+        "framesPerSecond": 25,
+        "autosizeProgress": true,
+        "alwaysShowControls": false,
+        "hideVideoControlsOnLoad": false,
+        "clickToPlayPause": true,
+        "iPadUseNativeControls": false,
+        "iPhoneUseNativeControls": false,
+        "AndroidUseNativeControls": false,
+        "features": ["playpause", "current", "progress", "duration", "tracks", "volume", "fullscreen"],
+        "isVideo": true,
+        "enableKeyboard": true,
+        "pauseOtherPlayers": true,
+        "startLanguage": "",
+        "tracksText": "mejs.i18n.t('Captions/Subtitles')",
+        "hideCaptionsButtonWhenEmpty": true,
+        "toggleCaptionsButtonWhenOnlyOne": false,
+        "slidesSelector": ""
     },
     "_pageLevelProgress": {
-        "_isEnabled": true
+        "_isEnabled": {$23:true}
     }
-}$12
+}{$24:,}
 ]]></content>
     <tabTrigger>adapt-media</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

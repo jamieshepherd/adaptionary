@@ -1,19 +1,22 @@
 <snippet>
     <content><![CDATA[
 {
-    "_id":"$1",
-    "_parentId":"$2",
-    "_type":"component",
-    "_component":"text",
-    "_classes":"",
-    "_layout":"${3:left}",
-    "title":"$4",
-    "displayTitle":"$5",
-    "body":"$6",
-    "instruction":"<em>$7</em>"
-}$8
+    "_id": "$1",
+    "_parentId": "$2",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "$3",
+    "_layout": "{$4:left}",
+    "title": "{$5:Text component}",
+    "displayTitle": "{$6:Text component}",
+    "body": "$7",
+    "instruction": "$8",
+    "_pageLevelProgress": {
+        "_isEnabled": {$9:true}
+    }
+}{$10:,}
 ]]></content>
     <tabTrigger>adapt-text</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

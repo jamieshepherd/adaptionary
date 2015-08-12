@@ -1,7 +1,7 @@
 # Adaptionary
 ## Sublime Text 3 Package
 
-*Formerly Adapt-Sublime*
+*Updated for Adapt Version 2*
 
 Adaptionary is a Sublime Text 3 package for working with the the [Adapt Learning Framework](https://github.com/adaptlearning/adapt_framework). The package is a collection of snippets for working with Adapt components. Once installed (easiest method is using package control) you can simply type any of the commands such as `adapt-text` and hitting TAB. You can also start typing the command and cycle through a list of available commands.
 
@@ -22,23 +22,25 @@ You can alternatively simply drop the .sublime_package file from releases in to 
 
 The following are the current available commands for Adaptionary:
 
-- `adapt-accordion`, `adapt-accordion-item`
-- `adapt-gmcq`, `adapt-gmcq-item`
-- `adapt-graphic`, `adapt-graphic-full`
-- `adapt-hotgraphic`, `adapt-hotgraphic-item`
-- `adapt-matching`, `adapt-matching-item`
-- `adapt-mcq`, `adapt-mcq-item`
-- `adapt-media`
-- `adapt-narrative`, `adapt-narrative-item`
-- `adapt-text`
-- `adapt-textinput`, `adapt-textinput-item`
-- `adapt-vmcq`
+- `Accordion`, `adapt-accordion`
+- `GMCQ`, `adapt-gmcq`
+- `Graphic`, `adapt-graphic`
+- `Hotgraphic`, `adapt-hotgraphic`
+- `Matching`, `adapt-matching`
+- `MCQ (Multiple choice question)`, `adapt-mcq`
+- `Media`, `adapt-media`
+- `Narrative`, `adapt-narrative-item`
+- `Slider`, `adapt-slider`
+- `Text`, `adapt-text`
+- `Textinput`, `adapt-textinput-item`
 
 You can now also add parent elements, such as contentObjects, articles, and blocks:
 
-- `adapt-contentObject`
-- `adapt-article`
-- `adapt-block`
+- `Content Object`, `adapt-contentObject`
+- `Article`, `adapt-article`
+- `Article with assessment`, `adapt-article-assessment`
+- `Block`, `adapt-block`
+- `Block with trickle`, `adapt-block-trickle`
 
 ## Screenshots
 

@@ -1,0 +1,42 @@
+<snippet>
+    <content><![CDATA[
+{
+   "_id": "$1",
+   "_parentId": "$2",
+   "_type": "block",
+   "_classes": "$3",
+   "title": "{$4:Block}",
+   "displayTitle": "{$5:Block}",
+   "body": "$6",
+   "_trickle":
+   {
+       "_isEnabled": {$7:true},
+       "_duration": {$8:500},
+       "_autoScroll": {$9:true},
+       "_button":
+       {
+           "_isEnabled": true,
+           "_styleBeforeCompletion": "hidden",
+           "_styleAfterClick": "hidden",
+           "_isFullWidth": true,
+           "_autoHide": true,
+           "_className": "",
+           "text": "Continue",
+           "finalText": "Finish",
+           "_component": "trickle-button"
+       },
+       "_stepLocking":
+       {
+           "_isEnabled": {$10:true},
+           "_isCompletionRequired": {$11:true},
+           "_isLockedOnRevisit": {$12:false}
+       },
+       "_scrollTo": "{$13:@block +1}"
+   },
+   "_trackingId": {$14:0}
+}{$15:,}
+]]></content>
+    <tabTrigger>adapt-block-trickle</tabTrigger>
+    <scope>source.json</scope>
+    <description>Adapt 2.0</description>
+</snippet>

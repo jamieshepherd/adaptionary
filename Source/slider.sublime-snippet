@@ -4,29 +4,28 @@
     "_id": "$1",
     "_parentId": "$2",
     "_type": "component",
-    "_component": "textinput",
+    "_component": "slider",
     "_classes": "$3",
-    "_layout": "{$4:right}",
-    "title": "{$5:Text input component}",
-    "displayTitle": "{$6:Text input component}",
+    "_layout": "{$4:left}",
+    "title": "{$5:Slider type component}",
+    "displayTitle": "{$6:Slider type component}",
     "body": "$7",
     "instruction": "$8",
-    "_attempts": {$9:1},
+    "_attempts": {$9:2},
     "_shouldDisplayAttempts": {$10:false},
-    "_questionWeight": {$11:10},
-    "_isRandom": {$12:false},
-    "_allowsAnyCase": {$13:true},
-    "_allowsPunctuation": {$14:true},
-    "_items": [
+    "_questionWeight": {$11:1},
+    "_showNumber": {$12:true},
+    "_showScaleIndicator": {$13:true},
+    "labelStart": "{$14:incomplete}",
+    "labelEnd": "{$15:complete}",
+    "_scaleStart": {$16:1},
+    "_scaleEnd": {$16:10},
+    "_correctAnswer": "$17",
+    "_correctRange":
     {
-        "prefix": "{$15:B:}",
-        "suffix": "{$16:%}",
-        "_answers": [
-            "{$17:2}",
-            "{$18:two}"
-        ],
-        "placeholder": "{$19:Enter answer here}"
-    }],
+        "_bottom": {$18:4},
+        "_top": {$19:9}
+    },
     "_buttons":
     {
         "_submit":
@@ -76,7 +75,9 @@
     }
 }{$26:,}
 ]]></content>
-    <tabTrigger>adapt-textInput</tabTrigger>
+    <tabTrigger>adapt-slider</tabTrigger>
     <scope>source.json</scope>
     <description>Adapt 2.0</description>
 </snippet>
+
+

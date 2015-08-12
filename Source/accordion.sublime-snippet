@@ -1,29 +1,41 @@
 <snippet>
     <content><![CDATA[
 {
-  "_id":"$1",
-  "_parentId":"$2",
-  "_type":"component",
-  "_component":"accordion",
-  "_classes":"",
-  "_layout":"${3:left}",
-  "title": "$4",
-  "displayTitle": "$5",
-  "body": "$6",
-  "instruction": "<em>$7</em>",
-  "_items": [
+    "_id": "$1",
+    "_parentId": "$2",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "$3",
+    "_layout": "${4:left}",
+    "title": "{$5:Accordion component}",
+    "displayTitle": "{$6:Accordion component}",
+    "body": "$7",
+    "instruction": "$8",
+    "_items": [
     {
-      "alt": "",
-      "title": "",
-      "body": "<p>$8</p>"
+        "title": "{$9:Heading 1}",
+        "body": "{$10:This is display text 1.}",
+        "_graphic":
+        {
+            "src": "{$11:course/en/images/example.jpg}",
+            "alt": "{$12:accordion item 1 graphic alt text here.}"
+        }
+    },
+    {
+        "title": "{$13:Heading 2}",
+        "body": "{$14:This is display text 2.}",
+        "_graphic":
+        {
+            "src": "{$15:course/en/images/example.jpg}",
+            "alt": "{$16:accordion item 2 graphic alt text here.}"
+        }
+    }],
+    "_pageLevelProgress": {
+        "_isEnabled": {$17:true}
     }
-  ],
-  "_pageLevelProgress": {
-    "_isEnabled": true
-  }
-}$9
+}{$18:,}
 ]]></content>
     <tabTrigger>adapt-accordion</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>

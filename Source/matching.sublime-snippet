@@ -2,57 +2,83 @@
     <content><![CDATA[
 {
     "_id": "$1",
-    "_parentId":"$2",
+    "_parentId": "$2",
     "_classes": "",
-    "_layout": "${3:left}",
     "_type": "component",
     "_component": "matching",
-    "_attempts": ${4:1},
-    "_isRandom":${5:true},
-    "_questionWeight":${6:1},
-    "title": "$7",
-    "displayTitle": "$8",
-    "body": "$9",
-    "instruction":"<em>$10</em>",
-    "_buttons":{
-        "submit":"",
-        "reset":"",
-        "showCorrectAnswer":"",
-        "hideCorrectAnswer":""
-    },
-    "_feedback": {
-        "correct": "$11",
-        "_incorrect": {
-            "notFinal": "$12",
-            "final": "$13"
-        },
-        "_partlyCorrect": {
-            "notFinal": "$14",
-            "final": "$15"
-        }
-    },
-    "placeholder": "${16:Select an option}",
+    "_layout": "{$3:left}",
+    "_attempts": {$4:2},
+    "_shouldDisplayAttempts": {$5:false},
+    "_isRandom": {$6:true},
+    "_questionWeight": {$7:10},
+    "title": "{$8:Matching component}",
+    "displayTitle": "{$9:Matching component}",
+    "body": "$10",
+    "instruction": "$11",
+    "placeholder": "{$12:select an option}",
     "_items": [
+    {
+        "text": "{$13:Pick option two}",
+        "_options": [
         {
-            "text": "$17",
-            "_options": [
-                {
-                    "text": "$18",
-                    "_isCorrect": ${19:false}
-                },
-                {
-                    "text": "",
-                    "_isCorrect": ${20:false}
-                }
-            ]
+            "text": "{$14:Option one}",
+            "_isCorrect": {$15:false}
+        },
+        {
+            "text": "{$16:Option two (correct)}",
+            "_isCorrect": {$17:true}
+        }]
+    }],
+    "_buttons":
+    {
+        "_submit":
+        {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset":
+        {
+            "buttonText": "Reset",
+            "ariaLabel": ""
+        },
+        "_showCorrectAnswer":
+        {
+            "buttonText": "Correct Answer",
+            "ariaLabel": ""
+        },
+        "_hideCorrectAnswer":
+        {
+            "buttonText": "My Answer",
+            "ariaLabel": ""
+        },
+        "_showFeedback":
+        {
+            "buttonText": "Show feedback",
+            "ariaLabel": ""
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt"
+    },
+    "_feedback":
+    {
+        "correct": "{$18:This feedback will appear if you answered the question correctly.}",
+        "_incorrect":
+        {
+            "notFinal": "$19",
+            "final": "{$20:This feedback will appear if you answered the question incorrectly.}"
+        },
+        "_partlyCorrect":
+        {
+            "notFinal": "$21",
+            "final": "{$22:This feedback will appear if you answered part of the question correctly.}"
         }
-    ],
+    },
     "_pageLevelProgress": {
-      "_isEnabled": true
+        "_isEnabled": {$23:true}
     }
-}$21
+}{$24:,}
 ]]></content>
     <tabTrigger>adapt-matching</tabTrigger>
     <scope>source.json</scope>
-    <description>Adapt 1.1</description>
+    <description>Adapt 2.0</description>
 </snippet>
