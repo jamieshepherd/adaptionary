@@ -37,7 +37,7 @@
         "_classes": "top-left",
         "_top": ${24:5},
         "_left": ${25:20}
-    },
+    }],
     "_pageLevelProgress": {
         "_isEnabled": ${26:true}
     }
