@@ -58,7 +58,7 @@ Sublime search guesses snippet titles
 
 ## Contributing
 
-Please feel free to fork and contribute snippets to this small package. New snippets are welcome, please add them to the Source folder. Please do not compile a .sublime_package.
+Please feel free to fork and contribute snippets to this small package. New snippets are welcome, please add them to the Source folder. Please do not compile a .sublime-package.
 
 ## License
 

@@ -20,8 +20,9 @@
     },
     "_pageLevelProgress": {
         "_isEnabled": ${13:true}
-    }
-}${14:,}
+    },
+    "_isOptional": ${14:true}
+}${15:,}
 ]]></content>
     <tabTrigger>adapt-graphic</tabTrigger>
     <scope>source.json</scope>
