@@ -21,7 +21,7 @@
     {
         "prefix": "${15:B:}",
         "suffix": "${16:%}",
-        "placeholder": "${17:Enter answer here}"
+        "placeholder": "${17:Enter answer here}",
         "_answers": [
             "${18:2}",
             "${19:two}"
