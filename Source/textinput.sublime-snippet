@@ -21,11 +21,11 @@
     {
         "prefix": "${15:B:}",
         "suffix": "${16:%}",
+        "placeholder": "${17:Enter answer here}"
         "_answers": [
-            "${17:2}",
-            "${18:two}"
-        ],
-        "placeholder": "${19:Enter answer here}"
+            "${18:2}",
+            "${19:two}"
+        ]
     }],
     "_buttons":
     {
