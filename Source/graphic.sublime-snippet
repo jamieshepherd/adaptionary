@@ -19,7 +19,7 @@
         "attribution": "${12:Copyright © 2015}"
     },
     "_pageLevelProgress": {
-        "_isEnabled": ${13:true}
+        "_isEnabled": ${13:false}
     },
     "_isOptional": ${14:true}
 }${15:,}

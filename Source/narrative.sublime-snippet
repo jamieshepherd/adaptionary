@@ -11,19 +11,19 @@
     "displayTitle": "${6:Narrative component}",
     "body": "$7",
     "instruction": "$8",
-    "_hasNavigationInTextArea": ${9:false},
-    "mobileInstruction": "$10",
+    "mobileInstruction": "$9",
+    "_hasNavigationInTextArea": ${10:false},
     "_setCompletionOn": "${11:allItems}",
     "_items": [
     {
         "title": "${12:Narrative stage 1 title}",
-        "body": "$13",
+        "strapline": "${13:Here is the first...}",
+        "body": "$14",
         "_graphic":
         {
-            "src": "${14:course/en/images/image-slider-1.jpg}",
-            "alt": "${15:First graphic}"
-        },
-        "strapline": "${16:Here is the first...}"
+            "src": "${15:course/en/images/image-slider-1.jpg}",
+            "alt": "${16:First graphic}"
+        }
     }],
     "_pageLevelProgress": {
         "_isEnabled": ${17:true}
